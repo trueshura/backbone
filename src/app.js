@@ -1,5 +1,6 @@
 var Mn = require('backbone.marionette');
 var $ = require('jquery');
+require('../less/style.less');
 
 // Create our Application
 var app = new Mn.Application();

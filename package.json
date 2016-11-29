@@ -19,5 +19,12 @@
   "scripts": {
     "start": "webpack --config webpack.config.js -p",
     "dev": "webpack-dev-server --content-base ./public_html"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "path": "^0.12.7",
+    "style-loader": "^0.13.1"
   }
 }
